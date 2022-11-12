@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     Model: DataTypes.STRING,
     rejectionReason1: DataTypes.TEXT,
     rejectionReason2: DataTypes.TEXT,
-    RejectionReason3: DataTypes.TEXT
+    rejectionReason3: DataTypes.TEXT,
     pass: DataTypes.BOOLEAN
   }, {
     sequelize,
