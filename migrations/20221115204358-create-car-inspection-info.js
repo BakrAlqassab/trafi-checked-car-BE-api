@@ -8,26 +8,26 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      plateNumber: {
-        type: Sequelize.STRING
-      },
-      year: {
+      model_year: {
         type: Sequelize.INTEGER
       },
-      Model: {
+      make: {
         type: Sequelize.STRING
       },
-      rejectionReason1: {
+      model: {
+        type: Sequelize.STRING
+      },
+      rejection_percentage: {
+        type: Sequelize.STRING
+      },
+      reason_1: {
         type: Sequelize.TEXT
       },
-      rejectionReason2: {
+      reason_2: {
         type: Sequelize.TEXT
       },
-      rejectionReason3: {
+      reason_3: {
         type: Sequelize.TEXT
-      },
-      pass: {
-        type: Sequelize.BOOLEAN
       },
       createdAt: {
         allowNull: false,
